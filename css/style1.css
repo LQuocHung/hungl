@@ -1,0 +1,191 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fl-l-50{
+    float: left;
+    width: 50%;
+}
+
+/* CSS */
+#header{
+    background-color: #f1e1db;
+    padding: 10px 3%;
+}
+
+#header .logo{
+    
+}
+#header ul{
+    list-style: none;
+}
+
+#header ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+#header ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
+
+#carousel{
+    background-image: url("./../images/hình css/Bản sao của BG.png");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+#activies .activies_title{
+    text-align: center;
+}
+
+#activies{
+    background-color: #faf4f2;
+    padding: 80px 0;
+}
+
+.activies_item{
+    float:left;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.clear-both{
+    clear:both;
+}
+
+.activies_text{
+    background-color: white;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.block_img{
+    position: relative;
+}
+
+.block_img i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff87;
+    font-size: 25px;
+    width:50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 15px;
+}
+
+.block_img img{
+  border-radius: 15px;
+  width: 100%;
+}
+
+.activies_text h3{
+  margin: 15px ;  
+}
+
+.activies_text p{
+  color: gray;
+}
+
+.activies_text button{
+    border:none;
+    padding: 15px 60px;
+    border-radius: 20px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+
+.view_all{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view_all button{
+    border: 1px solid red;
+    padding:15px 60px;
+    border-radius:50px ;
+    color: red;
+    background: transparent ;
+}
+
+#contact{
+    background-color: #f9c8c699;
+    
+}
+
+.contact_left,.contact_right{
+    float: left;
+   width:50%;
+   padding: 20px 60px;
+   box-sizing: border-box;
+}
+
+.contact_left{
+    background-image: url("./../images/hình css/Bản sao của mask.png");
+    background-size: cover;
+    background-position:center ;
+}
+
+.contact_right {
+   margin-top: 70px;
+}
+
+.contact_right p {
+    margin: 20px 0;
+}
+
+.contact_download,
+.contact_follow{
+    float: left;
+    width: 50%;
+}
+
+.contact_follow i{
+    font-size: 25px;
+    color: rgb(173, 134, 61);
+    margin-right: 10px;
+}
+
+#footer{
+    background-color: #f9c8c699;
+    margin-top: 100px;
+    border-top-left-radius: 80px;
+    padding: 50px;
+    border-top-right-radius: 80px;
+}
+
+.info_1 , .info_2 , .info_3, .info_4{
+    float: left;
+}
+.info_2 , .info_3, .info_4{
+    width: 20%;
+}    
+
+.info_2 , .info_3, .info_4, ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.info_1{
+    width: 40%;
+}
+
+.copy_right{
+    text-align: center;
+    margin-top: 20px;
+}
